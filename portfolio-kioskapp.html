@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Syaz Porfolio Website</title>
+        <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAKLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="crossorigin="anonymous"/> -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Update these with your own fonts -->
+        <!-- <link href="https://fonts.googleapis.com/css?family-Source+Code+Pro:480,900|Source+Sans
+        +Pro:300,900&display swap"rel="stylesheet"> -->
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo1.png" alt="Logo app">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Kiosk<strong>Application</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A simple food ordering system.</p>
+            <img src="img/kiosk-app.png" alt="a sample picture" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/DwOVb3oLBFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Kiosk App is a program developed using Eclipse as IDE and all the data are stored on phpMyAdmin. Kiosk App basically is a food-serving application where user can choose and buy their prefered meals. The user interface for this program is inspired by McDonald Website as we are assigned by our lecturer to create a food-serving program with McDonald's menu. This program implemented with TCP/IP client-server to handle data transfer.</p>
+            <ul>
+                <li>Menu
+                    <img src="img/kiosk-app-1.png" alt="" width="70%">
+                    <p>Picture above is the first interface that will be prompted out after the user has login to the system successfully. User can choose the meals that they prefered here.
+                        After that, user can click on 'Proceed to Cart' to proceed.
+                    </p>
+                </li>
+                <li>Add to cart
+                    <img src="img/kiosk-app-2.png" alt="" width="70%">
+                    <p>Here, the user can see the list of items that they ordered and the total price of the order. User then click on 'Payment' button continue.</p>
+                </li>
+                <li>Payment
+                    <img src="img/kiosk-app-3.png" alt="" width="70%">
+                    <p>User then need to insert their valid credit number and click on 'Confirm' button to complete their transaction. The order then send to server.</p>
+                </li>
+                <li>Kitchen
+                    <img src="img/kiosk-app-4.png" alt="" width="70%">
+                    <p>The server send the order to kitchen client. The kitchen can display the list of ordered item.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:zanie455@gmail.com" class="footer__link">zanie455@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                href="https://www.linkedin.com/in/muhammad-syazani-bin-mohd-shah-09355120b"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                href="https://www.youtube.com/channel/UCRtCRYBM35eZlpDYz0KNrgg"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                    href="https://github.com/Muhdsyaz"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </footer>
+
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

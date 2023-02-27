@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Syaz Porfolio Website</title>
+        <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAKLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="crossorigin="anonymous"/> -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Update these with your own fonts -->
+        <!-- <link href="https://fonts.googleapis.com/css?family-Source+Code+Pro:480,900|Source+Sans
+        +Pro:300,900&display swap"rel="stylesheet"> -->
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo1.png" alt="Logo app">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <!-- The title <strong>of my project</strong> -->
+                Cryptocurrency<strong>Prediction</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A simple cryptocurrency prediction using machine learning.</p>
+            <img src="img/crypto.png" alt="a sample picture" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p><strong>ABSTRACT</strong><br>Cryptocurrency is a peer-to-peer digital exchange system in which cryptography is used to generate and distribute currency units. This process requires distributed verification of transactions without a central authority. Transaction verification confirms transaction amounts, and whether the payer owns the currency they are trying to spend while ensuring that currency units are not spent twice. This verification process is called mining. Cryptocurrencies use a variety of mining technologies, according to their particular requirements. For instance, certain Cryptocurrencies focus on restricting the number of transactions validated per unit time, while others concentrate on achieving fast, lightweight services. Some mining algorithms are deliberately memory intensive; others are computationally expensive.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sfonjrGYjhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><strong>DATA SET</strong><br>In this project, we’ll discuss about prediction in crptocurrency
+
+                For each currency, we are used 1 year dataset
+                
+                The data contains total of 6 main features. The details for them are as follows :
+            </p>
+            <ul>
+                <li>Close Price – It is the market close price for currency for that particular day.</li>
+                <li>Open Price – It is market open price for currency for that day.</li>
+                <li>High Price – It is highest price of currency for the day.</li>
+                <li>Low Price – It is the lowest price for currency for that day.</li>
+                <li>Ajd Close - Adjusted close is the closing price after adjustments for all applicable splits and dividend distributions. Data is adjusted using appropriate split and dividend multipliers, adhering to Center for Research in Security Prices (CRSP) standards.</li>
+                <li>Volume – The volume of currency that is being in trade for that day.</li>
+            </ul>
+            
+            <p><strong>Ripple (XRP)</strong><br>Dataset that we are used for XRP are from 15/4/2020 until 15/4/2021. We have trained same LSTM model on Ripple data. We are predicting prices from 22 March 2021 to 15 April 2021.</p>
+            <p><strong>Ethereum (ETH)</strong><br>For Ethereum, dataset that we are used is from 11/5/2020 - 11/5/2021</p>
+            <p><strong>Bitcoin (BTC)</strong><br>For Bitcoin, dataset that we are used is from 18/5/2020 - 18/5/2021.</p>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:zanie455@gmail.com" class="footer__link">zanie455@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                href="https://www.linkedin.com/in/muhammad-syazani-bin-mohd-shah-09355120b"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                href="https://www.youtube.com/channel/UCRtCRYBM35eZlpDYz0KNrgg"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                    href="https://github.com/Muhdsyaz"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </footer>
+
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

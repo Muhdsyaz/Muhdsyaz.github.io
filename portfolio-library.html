@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Syaz Porfolio Website</title>
+        <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAKLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="crossorigin="anonymous"/> -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Update these with your own fonts -->
+        <!-- <link href="https://fonts.googleapis.com/css?family-Source+Code+Pro:480,900|Source+Sans
+        +Pro:300,900&display swap"rel="stylesheet"> -->
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo1.png" alt="Logo app">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <!-- The title <strong>of my project</strong> -->
+                Library<strong>Kiosk</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A simple book borrowing system.</p>
+            <img src="img/kiosk1.png" alt="a sample picture" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <!-- <p>This Kiosk Library is an automated version of manual Library Management System. The aim of the project is to provide flexibility to adapt to new and changing requirements. This system is to allow the student to create, manage and find out the student details and also allow student to search, borrow book or booking a study room.</p> -->
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/5IyPa2M9xik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>This Kiosk Library is an automated version of manual Library Management System. The aim of the project is to provide flexibility to adapt to new and changing requirements. This system is to allow the student to create, manage and find out the student details and also allow student to search, borrow book or booking a study room.
+                However, this system is very limited since this is the first system that I have developed when I was learning Java under Object Oriented Programming subject.
+            </p>
+            <img src="img/borrow.png" alt="" width="50%">
+            <p>Above is the interface that will be prompted out to user when the user want to borrow book from the system. In order to borrow a book, user need to insert book's ISBN number and date of borrow.</p>
+            <img src="img/return.png" alt="" width="50%">
+            <p>The process of returning the borrowed book is not different from borrowing one. User just need to enter the ISBN number of the borrowed book and date of return.</p>
+            <!-- <p> Many webpages are designed with a focus on simplicity, so that no extraneous information and functionality that might distract or confuse users appears. As the keystone of a web designer’s output is a site that wins and fosters the trust of the target audience, removing as many potential points of user frustration as possible is a critical consideration.</p> -->
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:zanie455@gmail.com" class="footer__link">zanie455@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                href="https://www.linkedin.com/in/muhammad-syazani-bin-mohd-shah-09355120b"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                href="https://www.youtube.com/channel/UCRtCRYBM35eZlpDYz0KNrgg"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                    href="https://github.com/Muhdsyaz"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </footer>
+
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

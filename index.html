@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Syaz Porfolio Website</title>
+        <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAKLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="crossorigin="anonymous"/> -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Update these with your own fonts -->
+        <!-- <link href="https://fonts.googleapis.com/css?family-Source+Code+Pro:480,900|Source+Sans
+        +Pro:300,900&display swap"rel="stylesheet"> -->
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo1.png" alt="Logo app">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Muhammad Syazani</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+            <img src="img/syazani.JPG" alt="a picture of Muhammad Syazani" class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Mobile Development</h3>
+                    <p>Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources. Hence, the mobile development process involves creating installable software bundles (code, binaries, assets, etc.) , implementing backend services such as data access with an API, and testing the application on target devices.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Designer & developer based out of Melaka</p>
+
+            <div class="about-me__body">
+                <p>I am a Software Development student aspiring to
+                    become Software Developer. I am a reliable and self-motivated person. 
+                    Capable of working in a team and follow instructions. Looking forward to applying skills and to
+                    contribute to high-quality project and system.</p>
+                <p>If I am to describe myself in three words, I would describe
+                    myself as driven, helpful and reliable. I consider myself
+                    to be driven because I'm always working toward a new goal
+                    and refuse to surrender if met with any obstacles. I chose
+                    helpful because I greatly enjoy helping my team members
+                    approach their projects with different methods. I often find
+                    satisfaction in assisting others.Finally, I picked reliable
+                    because I stick to my commitment. If I volunteer to do
+                    something, you can guerantee I'll get it done to the best
+                    of my abilities.
+                </p>
+            </div>
+
+            <img src="img/zani.JPG" alt="Selfie of syazani" class="about-me__img">
+        </section>
+
+
+        <!-- About Me -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A collection of my previous work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item -->
+                <a href="portfolio-library.html" class="portfolio__item">
+                    <img src="img/kiosk1.png" alt="" class="portfolio__img" height="100%">
+                </a>
+
+                <!-- Portfolio item -->
+                <a href="portfolio-crypto.html" class="portfolio__item">
+                    <img src="img/crypto.png" alt="" class="portfolio__img" height="100%">
+                </a>
+
+                <!-- Portfolio item -->
+                <a href="portfolio-kioskapp.html" class="portfolio__item">
+                    <img src="img/kiosk-app.png" alt="" class="portfolio__img" height="100%">
+                </a>
+
+                 <!-- Portfolio item -->
+                 <a href="portfolio-bakmai.html" class="portfolio__item">
+                    <img src="img/bakmai.jpeg" alt="" class="portfolio__img" height="100%">
+                </a>
+
+                <!-- Portfolio item -->
+                <a href="portfolio-downline.html" class="portfolio__item">
+                    <img src="img/downline-poster.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item -->
+                <a href="portfolio-rooma.html" class="portfolio__item">
+                    <img src="img/rooma-poster-1.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:sxzn455@gmail.com" class="footer__link">sxzn455@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                href="https://www.linkedin.com/in/muhammad-syazani-bin-mohd-shah-09355120b"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                href="https://www.youtube.com/channel/UCWyoZpMAkXhy7pJ5WRjlY0A"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                    href="https://github.com/Muhdsyaz"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </footer>
+
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
